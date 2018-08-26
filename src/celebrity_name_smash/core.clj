@@ -47,8 +47,7 @@
 
 (str (take 2 "Brad"))
 ;; => "clojure.lang.LazySeq@c31"
-
-- returns lazy sequence, need to apply or reduce
+;; - returns lazy sequence, need to apply or reduce
 
 (apply str (take 2 "Brad"))
 
@@ -147,4 +146,3 @@
 ;; => "Braa Pitolie"
 ;; => "Jmber Deppeard"
 ;; => "Jer Depeard"
-
