@@ -141,7 +141,7 @@
 ;; return a random element from a collection
 (rand-nth celeb-couples)
 
-(name-smash (rand-nth celeb-couples))
+(celeb-name-smash (rand-nth celeb-couples))
 ;; => "Bina Pitt"
 ;; => "Braa Pitolie"
 ;; => "Jmber Deppeard"
