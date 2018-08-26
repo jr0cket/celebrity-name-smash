@@ -146,3 +146,6 @@
 ;; => "Braa Pitolie"
 ;; => "Jmber Deppeard"
 ;; => "Jer Depeard"
+
+;; Call the celebrity name smash with a specific couple
+#_(celeb-name-smash ["Sheldon Cooper" "Amy Farrah-Fowler"])
